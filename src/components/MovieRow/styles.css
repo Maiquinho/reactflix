@@ -1,0 +1,37 @@
+.movie-row {
+    margin-bottom: 28px;
+}
+
+.movie-row h2 {
+    margin-bottom: 4px;
+    margin-left: 28px;
+}
+
+.movie-row__listarea {
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.movie-row__list {
+    width: 99999999999px;
+}
+
+.movie-row__list-item {
+    display: inline-block;
+    width: 150px;
+}
+
+.movie-row__list-item img {
+    width: 100%;
+
+    object-fit: cover;
+    height: 202.5px;
+
+    transform: scale(.9);
+
+    transition: all .2s ease-in-out;
+}
+
+.movie-row__list-item img:hover {
+    transform: scale(1);
+}
